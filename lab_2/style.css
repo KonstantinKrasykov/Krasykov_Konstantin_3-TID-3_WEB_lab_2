@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(61, 46, 23);
+}
+.container{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 80px; 
+}
+
+.cell {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cell.white {
+    background-color: rgb(240, 226, 206); 
+}
+
+.cell.green {
+    background-color: green;
+}
+
+.piece {
+    width: 50px;
+    height: 50px;
+    cursor: grab;
+    
+}
+
+.capturedZone {
+    min-width: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
